@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Orca XML File Format -->
+<OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
+  <OrcaTree OrcaName="(no name)">
+    <Orca OrcaName="atmcUserFile" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserFile">
+      <Orca OrcaName="WorkUnit_0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      <Orca OrcaName="WorkUnit_0" orcaPath="CueSheetFolder/WorkUnit_0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      <Orca OrcaName="CueSheet_0" orcaPath="CueSheetFolder/WorkUnit_0/CueSheet_0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      <Orca OrcaName="Track_BGM" orcaPath="CueSheetFolder/WorkUnit_0/CueSheet_0/BGM/Track_BGM" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      <Orca OrcaName="NotMoveSE" orcaPath="CueSheetFolder/WorkUnit_0/CueSheet_0/NotMoveSE" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      <Orca OrcaName="Track_KeyClick" orcaPath="CueSheetFolder/WorkUnit_0/CueSheet_0/KeyClick/Track_KeyClick" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      <Orca OrcaName="Fanfare" orcaPath="CueSheetFolder/WorkUnit_0/CueSheet_0/Fanfare" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+    </Orca>
+  </OrcaTree>
+</OrcaTrees>
+<!-- Copyright (c) CRI Middleware Co.,LTD. -->
+<!-- end of document -->

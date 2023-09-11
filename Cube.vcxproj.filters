@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>6b3a9f66-518f-472a-960b-454711d6ee5b</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>305cfd3f-bb57-4e1f-b131-e45df4d323fb</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{fc7fcf1f-222c-4d14-8424-868572e5eeda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PlayScene">
+      <UniqueIdentifier>{43e115e2-8b60-43a0-952b-78dc9914c439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TitleScene">
+      <UniqueIdentifier>{82457628-7c47-4e1a-b66b-f7c31c8520d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{4815bf3b-80b6-4d50-b582-332fd26fac9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MyLibraries">
+      <UniqueIdentifier>{811c2a07-d587-445e-9410-603255c1846d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{20bda224-49e4-4621-bbd2-d3720eb4e2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{a7088ee9-fd00-4d18-b3f2-71b96f0dc9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{eea3c579-7cc7-4e3d-b495-74ec5c148a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icon">
+      <UniqueIdentifier>{e17ffd14-7217-4e09-89a0-685e2df92d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{89530e9a-e668-4911-9f24-e91850b1f232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PlayScene\Box">
+      <UniqueIdentifier>{81dbbb6a-0953-4e03-9cd6-cc930e60b187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ResultScene">
+      <UniqueIdentifier>{ce99893f-07fc-4376-a3db-3bb85a868ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TutorialScene">
+      <UniqueIdentifier>{2d10a318-148f-4d5f-99a5-1e1450e1db4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ADX2">
+      <UniqueIdentifier>{0aba6880-d4a1-4aca-b6ac-b5b46830a711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundsHelpers">
+      <UniqueIdentifier>{76243110-14d0-44a1-b362-3d09bbe4ed24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shader">
+      <UniqueIdentifier>{b3907f1f-d057-4b22-a0a7-3f07d7e46cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameDate">
+      <UniqueIdentifier>{3430a6a5-2227-4695-8eea-c8e0c1619718}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameMain.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\PlayScene.h">
+      <Filter>Game\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScene\TitleScene.h">
+      <Filter>Game\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLibraries\DebugCamera.h">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLibraries\GridFloor.h">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLibraries\Camera.h">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Icon\Icon.h">
+      <Filter>Resources\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\Box\Box.h">
+      <Filter>Game\PlayScene\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ResultScene\ResultScene.h">
+      <Filter>Game\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\Box\BoxManager.h">
+      <Filter>Game\PlayScene\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TutorialScene\TutorialScene.h">
+      <Filter>Game\TutorialScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ADX2\Adx2.h">
+      <Filter>Libraries\ADX2</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLibraries\Singleton.h">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundsHelpers\CueSheet_0.h">
+      <Filter>SoundsHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Shader\EffectManager.h">
+      <Filter>Game\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Shader\MyEffect.h">
+      <Filter>Game\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundsHelpers\CubeSound_acf.h">
+      <Filter>SoundsHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ResourceManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDate\Collision.h">
+      <Filter>GameDate</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDate\Objects.h">
+      <Filter>GameDate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameMain.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\PlayScene.cpp">
+      <Filter>Game\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScene\TitleScene.cpp">
+      <Filter>Game\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLibraries\DebugCamera.cpp">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLibraries\GridFloor.cpp">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLibraries\Camera.cpp">
+      <Filter>Libraries\MyLibraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\Box\Box.cpp">
+      <Filter>Game\PlayScene\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ResultScene\ResultScene.cpp">
+      <Filter>Game\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\Box\BoxManager.cpp">
+      <Filter>Game\PlayScene\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TutorialScene\TutorialScene.cpp">
+      <Filter>Game\TutorialScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ADX2\Adx2.cpp">
+      <Filter>Libraries\ADX2</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Shader\EffectManager.cpp">
+      <Filter>Game\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Shader\MyEffect.cpp">
+      <Filter>Game\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDate\Collision.cpp">
+      <Filter>GameDate</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ResourceManager.cpp">
+      <Filter>GameDate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+    <ResourceCompile Include="Resources\Icon\Icon.rc">
+      <Filter>Resources\Icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\TridentLogo.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Icon\cubeIcon.ico">
+      <Filter>Resources\Icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fonts\myfile.spritefont">
+      <Filter>Resources\Fonts</Filter>
+    </None>
+    <None Include="Resources\Fonts\SegoeUI_18.spritefont">
+      <Filter>Resources\Fonts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Resources\Assets\BackModel.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
