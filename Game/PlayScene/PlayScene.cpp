@@ -279,6 +279,7 @@ void PlayScene::Draw()
 	m_pBackModel->UpdateEffects([&](DirectX::IEffect* effect)
 		{
 			DirectX::IEffectLights* lights = dynamic_cast<DirectX::IEffectLights*>(effect);
+
 			if (lights)
 			{
 				// ライトの影響をなくす
@@ -292,9 +293,16 @@ void PlayScene::Draw()
 			{
 				// エミッション色を設定する
 				basicEffect->SetEmissiveColor(m_lightColor);
+
+				////ライトの方向設定
+				//basicEffect->SetLightDirection(0, m_pDebugCamera.get()->GetEyePosition());
+
+				//basicEffect->SetWorld(world);
+				//basicEffect->SetView(view);
+				//basicEffect->SetProjection(projection);
+				//basicEffect->Apply(context);
 			}
 		});
-	world *= Matrix::CreateRotationZ(0.707f);
 	m_pBackModel->Draw(context, *m_commonState.get(), world, view, projection);
 
 	//ボックスの描画
